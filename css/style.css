@@ -10,26 +10,39 @@
   }
 
   .card {
-      -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12) !important;
-      box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12) !important;
+      -webkit-box-shadow: 0 0.5px 0.5px 0 rgba(0, 0, 0, 0.16), 0 0.5px 0.5px 0 rgba(0, 0, 0, 0.12) !important;
+      box-shadow: 0 0.5px 0.5px 0 rgba(0, 0, 0, 0.16), 0 0.5px 0.5px 0 rgba(0, 0, 0, 0.12) !important;
+background-color: rgb(225, 209, 240);
+
 
   }
+.card h5,
+.text-muted {
+    font-weight: bold;
+    color: black !important;
+}
 
- #myFooter {
-       border-top: 4px solid rgba(9, 16, 119, 0.76);
+}
+  #myFooter {
+      border-top: 4px solid rgba(9, 16, 119, 0.76);
   }
 
-#footer-article {
+  #footer-article {
       margin: auto;
       max-width: 740px;
       padding-top: 10px;
   }
-  #myCard{
+
+  #myCard {
       max-width: 720px;
       margin: 10px;
   }
 
-  #shataSlide{
-      height: ;
-    
+  header {
+      margin-bottom: 15px;
   }
+
+  /* #shataSlide {
+      height: 400px;
+
+  } */
